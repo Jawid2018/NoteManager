@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_line_text_content">10</integer>
+    <integer name="max_line_date">1</integer>
+    <integer name="home_recylerview_span_count">2</integer>
+</resources>

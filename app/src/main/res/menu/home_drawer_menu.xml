@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_category"
+        android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+        android:title="@string/category" />
+    <item
+        android:id="@+id/menu_statistic"
+        android:icon="@drawable/ic_bar_chart"
+        android:title="@string/statistic" />
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/settings" />
+    <item
+        android:id="@+id/menu_logout"
+        android:title="@string/logout" />
+</menu>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">NoteManager</string>
+    <string name="sort_note">Sort note</string>
+    <string name="category">Category</string>
+    <string name="statistic">Statistic</string>
+    <string name="save">save</string>
+    <string name="add_to_list">Add to list</string>
+    <string name="title">Title</string>
+    <string name="add_note">Add note</string>
+    <string name="list_image_dscription">click to add category</string>
+    <string name="select_time">Select time</string>
+    <string name="select_date">Select date</string>
+    <string name="invalid_empty">Please enter title and content first</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">cancel</string>
+    <string name="enter_category_name">Enter category name</string>
+    <string name="add_new_note">Add new note</string>
+    <string name="note_categories">Note categories</string>
+    <string name="task_done">Task done</string>
+    <string name="edit_task">Edit task</string>
+    <string name="channel_description">This channel will notify when you set a due date for your important tasks</string>
+    <string name="channel_name">Note manager channel</string>
+    <string name="settings">settings</string>
+    <string name="key_pref_cb_notification" translatable="false">key_checkbox_active_notification</string>
+    <string name="send_notification">Send Notification</string>
+    <string name="notification_active">Notification active</string>
+    <string name="notification_off">Notification is off</string>
+
+    <string name="key_pref_app_theme">key_preference_theme_app</string>
+
+    <string name="pref_dark_theme_value">dark</string>
+    <string name="pref_light_theme_value">light</string>
+    <string name="prf_default_heme_value">default</string>
+
+    <string name="default_theme">Default</string>
+    <string name="light_theme">Light</string>
+    <string name="dark_theme">Dark</string>
+    <string name="app_them_title">App theme</string>
+    <string name="profile_image_description">Profiel image</string>
+    <string name="profile_name">Ahmad Jawid</string>
+    <string name="app_icon">App icon</string>
+    <string name="login">Login</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_password">Enter password</string>
+    <string name="key_pref_user_login">user_login</string>
+    <string name="logout">Log out</string>
+    <string name="all">All</string>
+    <string name="tasks">Tasks</string>
+    <string name="notes">Notes</string>
+    <string name="completed">Completed tasks</string>
+    <string name="no_task_or_notes">No any task or notes</string>
+    <string name="delete">Delete</string>
+</resources>

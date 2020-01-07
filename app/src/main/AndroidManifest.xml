@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.notemanager">
+
+    <application
+        android:name=".NoteApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".login.LoginActivity"
+            android:theme="@style/Theme.NoteManager.FullScreen" />
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:parentActivityName=".home.HomeActivity" />
+        <activity
+            android:name=".category.CategoryActivity"
+            android:parentActivityName=".home.HomeActivity"
+            android:theme="@style/Theme.NoteManager.NotActionBar" />
+        <activity
+            android:name=".new_note.NewNoteActivity"
+            android:parentActivityName=".home.HomeActivity"
+            android:theme="@style/Theme.NoteManager.NotActionBar" />
+        <activity
+            android:name=".home.HomeActivity"
+            android:theme="@style/Theme.NoteManager.StatusOverlay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".notification.NotificationReceiver"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver
+            android:name=".notification.NotificationActionReceiver"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

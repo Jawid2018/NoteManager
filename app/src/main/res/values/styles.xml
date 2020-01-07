@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.NoteManager.ThemeOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="Theme.NoteManager.NotActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.NoteManager.StatusOverlay" parent="Theme.NoteManager.NotActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="CardView.Style">
+        <item name="cardCornerRadius">@dimen/cardview_radius</item>
+        <item name="cardElevation">@dimen/cardview_elevation</item>
+    </style>
+
+    <style name="Theme.NoteManager.FullScreen" parent="Theme.NoteManager.NotActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

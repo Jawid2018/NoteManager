@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/key_pref_cb_notification"
+        android:summaryOff="@string/notification_off"
+        android:summaryOn="@string/notification_active"
+        android:title="@string/send_notification" />
+
+    <ListPreference
+        android:defaultValue="@string/prf_default_heme_value"
+        android:entries="@array/app_them_entries"
+        android:entryValues="@array/app_theme_value"
+        android:key="@string/key_pref_app_theme"
+        android:title="@string/app_them_title"
+        app:useSimpleSummaryProvider="true" />
+</PreferenceScreen>

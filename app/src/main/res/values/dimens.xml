@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_very_small">4dp</dimen>
+    <dimen name="cardview_radius">4dp</dimen>
+    <dimen name="cardview_elevation">4dp</dimen>
+</resources>
